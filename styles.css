@@ -117,9 +117,6 @@ a{
     height: 150px;
     width: 150px;
     border-radius: 15px;
-
-
-
 }
 
 .sub{
@@ -129,4 +126,34 @@ a{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+/* above is the first white content */
+
+.gray-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.gray-para{
+margin-top: 90px;
+width: 750px;
+font-size: 36px;
+color: #1F2937;
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-style: italic;
+margin-bottom: 0px;
+}
+
+.gray-thor{
+align-self: flex-end;
+margin-right: 380px;
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+margin-top: 0px;
+margin-bottom: 90px;
 }
