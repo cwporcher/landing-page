@@ -47,7 +47,6 @@ a{
 .navy-title{
     font-size: 48px;
     color: #F9FAF8;
-    
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -57,7 +56,6 @@ a{
 .navy-para{
     font-size: 18px;
     color: #E5E7EB;
-
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -69,9 +67,11 @@ a{
     background-color: #3882F6;
     border-radius: 5px;
     border: none;
-    width: 70px;
-    height: 20px;
     margin: 10px 0px;
+    padding: 5px 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .placeholder{
@@ -209,3 +209,13 @@ h4{
 
 /* above is the last white section/ call to action */
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
