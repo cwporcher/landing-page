@@ -11,34 +11,29 @@ background-color: #1F2937;
 display: flex;
 align-items:baseline;
 margin: 0px 180px;
-
 }
 
 .link-three{
     padding-right: 0px;
 }
 
-
 h1{
     font-size: 24px;
     color: #F9FAF8;
     margin-right: auto;
     padding: 10px;
-
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;    
-    
-}
+    }
 
 a{
     font-size: 18px;
     color: #E5E7EB;
     padding: 10px;
-    
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .navy-center-content{
@@ -88,6 +83,50 @@ a{
     align-items: center;
 }
 
-.place-text{
-  
+/* above is the navy content and body */
+
+.first-white-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-info{
+    font-size: 36px;
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.center-images-and-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container,
+.subtext{
+    display: flex;
+    gap: 40px;
+}
+
+.img{
+    display: flex;
+    border: solid #3882F6 3px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+
+
+
+}
+
+.sub{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
